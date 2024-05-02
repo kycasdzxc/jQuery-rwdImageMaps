@@ -31,9 +31,9 @@
 						var temp = new Image();
 						temp.src = $that.attr('src');
 						if (!w)
-							w = temp.width;
+							w = this.width;
 						if (!h)
-							h = temp.height;
+							h = this.height;
 					}
 
 					var wPercent = $that.width()/100,
